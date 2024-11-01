@@ -1,0 +1,46 @@
+html {
+    background-color: black;
+    body {
+        background-color: beige;
+        margin: 0% 5%;
+    }
+}
+header {
+    color: whitesmoke;
+    height: 600px;
+    padding-top: 15px;
+    text-align: center;
+    background-image: url(/images/pexels-felicia-evelyn-limena-715846-1568639.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    h2 {
+        font-variant: small-caps;
+        font-size: 24px;
+    }
+    h1 {
+        padding-top: 15%;
+        font-size: 48px;
+        letter-spacing: 3px;
+        word-spacing: 6px;
+    }
+    button {
+        height: 40px;
+        width: 200px;
+        background-color: green;
+        text-transform: uppercase;
+        color: whitesmoke;
+        letter-spacing: 3px;
+        font-weight: bolder;
+        border: 2px solid whitesmoke;
+    }
+}
+.nav {
+    text-transform: uppercase;
+    display: inline;
+    float: right;
+    margin: 2px;
+    width: 120px;
+    font-weight: bolder;
+    font-size: medium;
+}
