@@ -4121,6 +4121,12 @@ header button {
   border: 2px solid whitesmoke;
   margin-top: 40px;
 }
+header a:link {
+  color: white;
+}
+header a:visited {
+  color: white;
+}
 
 .nav {
   text-transform: uppercase;

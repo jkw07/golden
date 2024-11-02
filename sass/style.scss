@@ -38,6 +38,12 @@ header {
         border: 2px solid whitesmoke;
         margin-top: 40px;
     }
+    a:link {
+        color: white;
+    }
+    a:visited {
+        color: white;
+    }
 }
 .nav {
     text-transform: uppercase;
