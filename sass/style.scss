@@ -95,3 +95,22 @@ header {
         margin-top: 60px;
     }  
 }
+footer {
+    padding-top: 60px;
+    padding-bottom: 40px;
+    div {
+        text-align: center;
+    }
+    ul {
+        display: inline-block;
+    }
+    li {
+        list-style-type: none;
+        display: inline-block;
+        margin: 10px;
+    }
+    p {
+        font-size: 14px;
+        color: gray;
+    }
+}
