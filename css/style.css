@@ -4085,8 +4085,8 @@ html {
   background-color: black;
 }
 html body {
-  background-color: beige;
   margin: 0% 5%;
+  background-color: white;
 }
 
 header {
@@ -4145,21 +4145,34 @@ header button {
 }
 .services .container {
   margin-top: 60px;
+  padding-bottom: 60px;
 }
 
 .portfolio {
   text-align: center;
+  background-color: whitesmoke;
+}
+.portfolio div {
+  width: 80%;
+  align-items: center;
+  margin: auto;
 }
 .portfolio h1 {
   font-size: 48px;
   padding: 0;
-  margin-top: 60px;
+  padding-top: 40px;
 }
 .portfolio p {
   color: gray;
 }
 .portfolio h2 {
-  font-size: 24px;
+  font-size: 16px;
+  margin-top: 6px;
+}
+.portfolio .col {
+  background-color: white;
+  margin: 10px;
+  padding: 0;
 }
 .portfolio .col p {
   font-size: 12px;

@@ -3,8 +3,8 @@
 html {
     background-color: black;
     body {
-        background-color: beige;
         margin: 0% 5%;
+        background-color: white;
     }
 }
 header {
@@ -60,27 +60,38 @@ header {
     }
     .container {
         margin-top: 60px;
+        padding-bottom: 60px;
     }
 }
 .portfolio {
     text-align: center;
+    background-color: whitesmoke;
+    div {
+        width: 80%;
+        align-items: center;
+        margin: auto;
+    }
     h1 {
         font-size: 48px;
         padding: 0;
-        margin-top: 60px;
+        padding-top: 40px;
     }
     p {
         color: gray;
     }
     h2 {
-        font-size: 24px;
+        font-size: 16px;
+        margin-top: 6px;;
     }
     .col {
+        background-color: white;
+        margin: 10px;
+        padding: 0;
         p {
             font-size: 12px;
         }
     }
     .container {
         margin-top: 60px;
-    }
+    }  
 }
